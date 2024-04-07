@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shop.Contract\ShopMeneger.Contracts.csproj" />
-    <ProjectReference Include="..\Shop.Service\ShopMeneger.Service.csproj" />
+    <ProjectReference Include="..\Shop.Contract\ShopMeneger.Domein.csproj" />
+    <ProjectReference Include="..\Shop.Service\ShopMeneger.Application.csproj" />
   </ItemGroup>
 
 </Project>

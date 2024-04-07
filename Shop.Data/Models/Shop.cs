@@ -2,8 +2,15 @@
 {
     public class Shop
     {
-        public int ShopId { get; set; }
+        public Guid ShopId { get; set; }
+
+
+
         public string ShopName { get; set; }
         public string ShopDescription { get; set; }
+
+
+
+        public virtual IEnumerable<Category> Categories { get; set; }
     }
 }

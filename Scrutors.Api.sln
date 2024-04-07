@@ -5,11 +5,17 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Api", "Scrutors.Api\ShopMeneger.Api.csproj", "{F9C7ABFE-A690-475F-8595-81A558099AD4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Service", "Shop.Service\ShopMeneger.Service.csproj", "{89E8B6F4-A6EE-41EF-9CC3-140F8048537D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Application", "Shop.Service\ShopMeneger.Application.csproj", "{89E8B6F4-A6EE-41EF-9CC3-140F8048537D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Contracts", "Shop.Contract\ShopMeneger.Contracts.csproj", "{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Domein", "Shop.Contract\ShopMeneger.Domein.csproj", "{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Data", "Shop.Data\ShopMeneger.Data.csproj", "{D016D619-CABF-4AED-B03A-CAD86C6B0028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7F956177-E276-4194-B810-8D0AD4743634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2B7303D9-34F2-4817-A017-592C82A62FC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AEBAFD95-0059-4F15-8CAC-050752675090}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +42,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9C7ABFE-A690-475F-8595-81A558099AD4} = {AEBAFD95-0059-4F15-8CAC-050752675090}
+		{89E8B6F4-A6EE-41EF-9CC3-140F8048537D} = {7F956177-E276-4194-B810-8D0AD4743634}
+		{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D} = {7F956177-E276-4194-B810-8D0AD4743634}
+		{D016D619-CABF-4AED-B03A-CAD86C6B0028} = {2B7303D9-34F2-4817-A017-592C82A62FC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8EFA470-A4EF-4E16-AA7A-68633742394B}
