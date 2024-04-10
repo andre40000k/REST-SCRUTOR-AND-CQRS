@@ -11,6 +11,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddConectDb(builder.Configuration);
 
+builder.Services.AddMediatR();
+
 builder.Services.AddScrutor();
 
 var app = builder.Build();

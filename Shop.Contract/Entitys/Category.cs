@@ -1,9 +1,8 @@
-﻿namespace ShopMeneger.Data.Models
+﻿namespace ShopMeneger.Domain.Entitys
 {
     public class Category
     {
         public Guid CategoryId { get; set; }
-        public Guid ShopId { get; set; }
 
 
 
@@ -12,7 +11,7 @@
 
 
 
-        public virtual Shop Shop { get; set; }
+        public virtual IEnumerable<ShopCategory> ShopCategories { get; set; }
         public virtual IEnumerable<Product> Products { get; set;}
     }
 }

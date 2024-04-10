@@ -1,4 +1,4 @@
-﻿namespace ShopMeneger.Data.Models
+﻿namespace ShopMeneger.Domain.Entitys
 {
     public class Product
     {

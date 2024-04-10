@@ -1,10 +1,10 @@
-﻿using ShopMeneger.Data.Models;
+﻿using ShopMeneger.Data.Entitys;
 
 namespace ShopMeneger.Contracts.Respons
 {
     public class ShopResponse
     {
-        public int ShopId { get; set; }
+        public Guid ShopId { get; set; }
         public string ShopName { get; set; }
         public string ShopDescription { get; set; }
 

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Api", "Scrutors
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Application", "Shop.Service\ShopMeneger.Application.csproj", "{89E8B6F4-A6EE-41EF-9CC3-140F8048537D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Domein", "Shop.Contract\ShopMeneger.Domein.csproj", "{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Domain", "Shop.Contract\ShopMeneger.Domain.csproj", "{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopMeneger.Data", "Shop.Data\ShopMeneger.Data.csproj", "{D016D619-CABF-4AED-B03A-CAD86C6B0028}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2B7303D9-34F2-4817-A017-592C82A62FC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{AEBAFD95-0059-4F15-8CAC-050752675090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{35849C77-CD9F-4933-BFC9-9D278BB4B67D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D016D619-CABF-4AED-B03A-CAD86C6B0028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D016D619-CABF-4AED-B03A-CAD86C6B0028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D016D619-CABF-4AED-B03A-CAD86C6B0028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35849C77-CD9F-4933-BFC9-9D278BB4B67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35849C77-CD9F-4933-BFC9-9D278BB4B67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35849C77-CD9F-4933-BFC9-9D278BB4B67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35849C77-CD9F-4933-BFC9-9D278BB4B67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{89E8B6F4-A6EE-41EF-9CC3-140F8048537D} = {7F956177-E276-4194-B810-8D0AD4743634}
 		{77DA1FF8-C2A3-429D-BA07-21605B3F5E7D} = {7F956177-E276-4194-B810-8D0AD4743634}
 		{D016D619-CABF-4AED-B03A-CAD86C6B0028} = {2B7303D9-34F2-4817-A017-592C82A62FC4}
+		{35849C77-CD9F-4933-BFC9-9D278BB4B67D} = {2B7303D9-34F2-4817-A017-592C82A62FC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8EFA470-A4EF-4E16-AA7A-68633742394B}

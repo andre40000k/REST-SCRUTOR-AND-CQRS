@@ -1,4 +1,4 @@
-﻿namespace ShopMeneger.Data.Models
+﻿namespace ShopMeneger.Data.Entitys
 {
     public class Customer
     {

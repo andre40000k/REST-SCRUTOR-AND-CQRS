@@ -1,4 +1,4 @@
-﻿namespace ShopMeneger.Data.Models
+﻿namespace ShopMeneger.Data.Entitys
 {
     public class Shop
     {
@@ -11,6 +11,6 @@
 
 
 
-        public virtual IEnumerable<Category> Categories { get; set; }
+        public virtual IEnumerable<ShopCategory> ShopCategorys { get; set; }
     }
 }

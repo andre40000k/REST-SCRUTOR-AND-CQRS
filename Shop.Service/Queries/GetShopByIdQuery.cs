@@ -4,7 +4,7 @@ using ShopShopMeneger.Data.Context;
 
 namespace ShopMeneger.Service.Queries
 {
-    public class GetShopByIdQuery : IRequestHendler<int, ShopResponse>
+    public class GetShopByIdQuery : IRequestHendler<Guid, ShopResponse>
     {
         private readonly ShopContext _shopContext;
 
@@ -13,7 +13,7 @@ namespace ShopMeneger.Service.Queries
             _shopContext = shopContext;
         }
 
-        public async Task<ShopResponse?> HendlerAsync(int shopId, CancellationToken cancellationToken = default)
+        public async Task<ShopResponse?> HendlerAsync(Guid shopId, CancellationToken cancellationToken = default)
         {
             return await _shopContext.Shops
                 .AsNoTracking()

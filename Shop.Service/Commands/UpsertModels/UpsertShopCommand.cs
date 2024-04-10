@@ -1,4 +1,4 @@
-﻿using ShopMeneger.Data.Models;
+﻿using ShopMeneger.Data.Entitys;
 
 namespace ShopMeneger.Service.Commands.UpsertModels
 {
